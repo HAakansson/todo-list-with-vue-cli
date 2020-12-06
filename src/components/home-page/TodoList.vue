@@ -12,7 +12,7 @@
     <div v-else class="container">
       <p class="empty">Your Todo list is empty...</p>
     </div>
-    <button class="submit" @click="goToAddNew">Add new</button>
+    <router-link class="submit" to="/newTodo">Add new Todo</router-link>
   </div>
 </template>
 
