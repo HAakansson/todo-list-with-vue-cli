@@ -28,7 +28,7 @@ export default new Vuex.Store({
   },
   mutations: {
     addTodo(state, data) {
-      state.todoList.unshift(data);
+      state.todoList.push(data);
     },
     removeTodo(state, data) {
       state.todoList = state.todoList.filter(function(todo) {
