@@ -3,6 +3,7 @@
     <h1 class="header">My Star Wars Todo List</h1>
     <div class="links-wrapper">
       <router-link class="links" to="/">Home</router-link>
+      <router-link class="links" to="/about">About</router-link>
       <router-link class="links" to="/newTodo">Create New Todo</router-link>
     </div>
   </div>
