@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .todo-list-item {
   border-bottom: 2px solid yellow;
   border-radius: 5px;
