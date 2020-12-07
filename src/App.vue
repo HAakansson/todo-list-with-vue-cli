@@ -31,7 +31,7 @@ body {
 }
 
 .submit {
-  background: black;
+  background: blue;
   border: 1px solid yellow;
   border-radius: 5px;
   color: yellow;
