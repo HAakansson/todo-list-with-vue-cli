@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import AddNewTodoPage from "../views/AddNewTodoPage.vue";
+import About from "../views/About.vue";
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/newTodo",
     name: "AddNewTodoPage",
     component: AddNewTodoPage,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
   },
 ];
 
